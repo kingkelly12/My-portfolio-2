@@ -6,7 +6,6 @@ body{
     display: contents;
     justify-content: space-between;
     align-items: center;
-    font-family: Arial, sans-serif;
 }
 h1{
     font-size: 2em;
@@ -35,103 +34,30 @@ ul{
     padding-top: auto;
     padding-bottom: auto;
 }
-#header1{
+.header{
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: grey;
     border: no-border;
     box-shadow: 3px 3px 5px;
     text-align: center;
-    height: 25px;
+    height: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0%;
 }
-#header2{
-    background-color: white;
-    color: black;
-    border: no-border;
-    box-shadow: 3px 3px 5px;
-    text-align: center;
-    height: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0%;
-}
-#button1{
-    background-color: white;
-    border: no-border;
-    box-shadow: 2px 2px 5px;
+.button{
+    background-color: rgb(120, 130, 218);
+    border: 1px solid grey;
     border-radius: 20px;
     text-align: center;
     height: 30px;
     width: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 25px;
     margin-left: 5%;
     margin-right: 5px;
     margin-top: 6px;
-    margin-bottom: 10px;
-}
-#button2{
-    background-color: white;
-    border: no-border;
-    box-shadow: 2px 2px 5px;
-    border-radius: 20px;
-    text-align: center;
-    height: 30px;
-    width: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 6px;
-    margin-bottom: 10px;
-}
-#button3{
-    background-color: white;
-    border: no-border;
-    box-shadow: 2px 2px 5px;
-    border-radius: 20px;
-    text-align: center;
-    height: 30px;
-    width: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 6px;
-    margin-bottom: 10px;
-}
-#button4 {
-    background-color: white;
-    border: no-border;
-    box-shadow: 2px 2px 5px;
-    border-radius: 20px;
-    text-align: center;
-    height: 30px;
-    width: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 6px;
-    margin-bottom: 10px;
-}
-#button5 {
-    background-color: white;
-    border: no-border;
-    box-shadow: 2px 2px 5px;
-    border-radius: 20px;
-    text-align: center;
-    height: 30px;
-    width: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 6px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 a:link {
     color: black;
